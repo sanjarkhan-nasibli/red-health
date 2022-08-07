@@ -1,3 +1,11 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 body {
   margin: 0;
   line-height: normal;
@@ -16,7 +24,7 @@ body {
   top: 495px;
   font-size: 20px;
   line-height: 30px;
-  width: 506px;
+  width: 510px;
   height: 65px;
 }
 .search-for-centers {
@@ -28,7 +36,7 @@ body {
   text-align: left;
   display: flex;
   align-items: center;
-  width: 225px;
+  width: 228px;
   height: 23px;
   flex-shrink: 0;
 }
@@ -70,21 +78,27 @@ body {
 .eng-div {
   position: absolute;
   height: 80%;
-  width: 50%;
+  width: 55.56%;
   top: 11.43%;
-  right: 25.56%;
+  right: 22.22%;
   bottom: 8.57%;
-  left: 22.56%;
+  left: 22.22%;
+  font-size: 22px;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: center;
   display: inline-block;
 }
-.group-div {
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
   position: absolute;
   top: 35px;
   left: 1310px;
   width: 90px;
   height: 35px;
-  text-align: center;
-  color: #fff;
 }
 .c21dc1-c604-4177-a426-d89dd448-icon,
 .f632c94-ccb6-46fb-86ae-92e3266-icon {
@@ -107,17 +121,18 @@ body {
 }
 .creating-better-future {
   position: absolute;
-  height: 18.6%20;
+  height: 18.6%;
   width: 100%;
-  top: 74.42%;
+  top: 81.4%;
   right: -0.43%;
-  bottom: 6.98%;
+  bottom: 0;
   left: 17.6%;
   letter-spacing: 0.62em;
   line-height: 101.9%;
   display: inline-block;
 }
-.default-monochrome-black-1-div {
+.default-monochrome-black-1 {
+  text-decoration: none;
   position: absolute;
   top: 27px;
   left: 22px;
@@ -125,6 +140,7 @@ body {
   height: 43px;
   overflow: hidden;
   font-size: 8px;
+  color: inherit;
 }
 .health-issues-b,
 .our-offerings-b,
@@ -135,12 +151,13 @@ body {
   font-size: 30px;
   line-height: 30px;
   display: inline-block;
-  width: 213px;
+  width: 222px;
   height: 40px;
 }
 .health-issues-b,
 .who-are-we {
   top: 1320px;
+  width: 213px;
 }
 .who-are-we {
   top: 2152px;
@@ -171,7 +188,7 @@ body {
   height: 80.24px;
   overflow: hidden;
 }
-.group-div1 {
+.group-div {
   position: absolute;
   top: 1098px;
   left: 515px;
@@ -221,11 +238,11 @@ body {
   width: 150px;
   height: 1px;
 }
-.group-div2 {
+.group-div1 {
   position: absolute;
   top: 35px;
   left: 360px;
-  width: 852px;
+  width: 855px;
   height: 32px;
 }
 .information-portal-div,
@@ -288,7 +305,7 @@ body {
 }
 .genetic-diseases-div {
   position: absolute;
-  top: 283px;
+  top: 288px;
   left: 42px;
   line-height: 30px;
   font-weight: 500;
@@ -300,7 +317,7 @@ body {
   position: absolute;
   top: 38px;
   left: 40px;
-  border-radius: 35px;
+  border-radius: 61px;
   width: 274px;
   height: 225px;
   object-fit: cover;
@@ -316,19 +333,23 @@ body {
   width: 263px;
   height: 137px;
 }
-.group-div3,
+.group-div2,
 .rectangle-icon1 {
   position: absolute;
   width: 355px;
   height: 550px;
 }
-.group-div3 {
+.group-div2 {
   top: 1419px;
   left: 140px;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 0;
   text-align: center;
   font-size: 30px;
   border-radius: 61px;
+}
+.group-div2.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
 }
 .rectangle-icon1 {
   top: 0;
@@ -346,16 +367,20 @@ body {
   max-width: 100%;
   max-height: 100%;
 }
-.group-div4 {
+.group-div3 {
   position: absolute;
   top: 1419px;
   left: 579.02px;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
   width: 355px;
   height: 550px;
+  opacity: 0;
   text-align: center;
   font-size: 30px;
   border-radius: 61px;
+}
+.group-div3.animate {
+  animation: 1s ease 0.3s 1 normal forwards fade-in;
 }
 .c21dc1-c604-4177-a426-d89dd448-icon2 {
   position: absolute;
@@ -368,16 +393,20 @@ body {
   max-width: 100%;
   max-height: 100%;
 }
-.group-div5 {
+.group-div4 {
   position: absolute;
   top: 1419px;
   left: 1018.05px;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
   width: 355px;
   height: 550px;
+  opacity: 0;
   text-align: center;
   font-size: 28px;
   border-radius: 61px;
+}
+.group-div4.animate {
+  animation: 1s ease 0.6s 1 normal forwards fade-in;
 }
 .group-icon2,
 .group-icon3,
@@ -407,14 +436,13 @@ body {
   display: inline-block;
 }
 .we-are-a-non-profitable-organi {
-  border: 0;
-  background-color: transparent;
-  top: 2258px;
+  top: 2261px;
   font-size: 32px;
-  font-family: Montserrat;
-  color: #000;
-  text-align: left;
-  width: 524px;
+  width: 589px;
+  opacity: 0;
+}
+.we-are-a-non-profitable-organi.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
 }
 .read-more-div {
   top: 2616px;
@@ -458,16 +486,17 @@ body {
 .facebook-svgrepo-com-1-icon,
 .instagram-svgrepo-com-1-icon {
   position: absolute;
-  top: 2821px;
-  left: 844px;
-  width: 31px;
-  height: 31px;
+  top: 2823px;
+  left: 846px;
+  width: 30px;
+  height: 30px;
   overflow: hidden;
 }
 .facebook-svgrepo-com-1-icon {
   top: 2865px;
-  width: 32px;
-  height: 34px;
+  left: 842px;
+  width: 38px;
+  height: 38px;
 }
 .email-svgrepo-com-1-icon,
 .twitter-svgrepo-com-1-icon,
@@ -488,49 +517,54 @@ body {
   top: 3001px;
   height: 31px;
 }
-.rectangle-icon3 {
+.rectangle-icon3,
+.redhealthofficial {
   position: absolute;
   top: 2821px;
   left: 883px;
   width: 177px;
   height: 21px;
 }
-.redhealthofficial-div,
-.redhealthofficialgmailcom-div {
-  position: absolute;
-  top: 2821px;
+.redhealthofficial {
+  text-decoration: none;
   left: 897px;
   line-height: 30px;
   color: #fff;
   text-align: center;
   display: inline-block;
   width: 182px;
-  height: 21px;
 }
-.redhealthofficialgmailcom-div {
-  top: 3001px;
-  left: 898px;
-  width: 319px;
-}
-.red-health-div,
-.redhealth-div,
-.redhealthofficial-div1 {
+.red-health,
+.redhealth-,
+.redhealthofficial1,
+.redhealthofficialgmailcom {
+  text-decoration: none;
   position: absolute;
-  top: 2913px;
   left: 898px;
   line-height: 30px;
   color: #fff;
   display: inline-block;
+}
+.redhealthofficialgmailcom {
+  top: 3001px;
+  text-align: center;
+  width: 319px;
+  height: 21px;
+}
+.red-health,
+.redhealth-,
+.redhealthofficial1 {
+  top: 2913px;
   width: 159px;
   height: 20px;
 }
-.red-health-div,
-.redhealthofficial-div1 {
+.red-health,
+.redhealthofficial1 {
   top: 2865px;
   left: 897px;
   width: 220px;
 }
-.red-health-div {
+.red-health {
   top: 2957px;
   left: 899px;
   width: 159px;
@@ -547,7 +581,7 @@ body {
   max-width: 100%;
   max-height: 100%;
 }
-.main-page {
+.red-health-div {
   position: relative;
   background-color: #ede9e9;
   width: 100%;
