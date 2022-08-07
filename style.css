@@ -1,0 +1,560 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.here-you-can-find-test-centers,
+.your-assistant-to-receive-qual {
+  position: absolute;
+  top: 331px;
+  left: 131px;
+  font-size: 40px;
+  display: inline-block;
+  width: 478px;
+  height: 140px;
+}
+.here-you-can-find-test-centers {
+  top: 495px;
+  font-size: 20px;
+  line-height: 30px;
+  width: 506px;
+  height: 65px;
+}
+.search-for-centers {
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 225px;
+  height: 23px;
+  flex-shrink: 0;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 26px 182px 39px 60px;
+  background-color: transparent;
+  position: absolute;
+  top: 583px;
+  left: 131px;
+  border-radius: 30px;
+  background: linear-gradient(-86.13deg, #ef0f0f, #ff5a44);
+  box-shadow: 1px 2.5px 3px rgba(0, 0, 0, 0.5);
+  width: 350px;
+  height: 77px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blood-drop-svgrepo-com-1-icon {
+  position: absolute;
+  top: 250px;
+  left: 860px;
+  width: 512px;
+  height: 512px;
+  overflow: hidden;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  width: 90px;
+  height: 35px;
+}
+.eng-div {
+  position: absolute;
+  height: 80%;
+  width: 50%;
+  top: 11.43%;
+  right: 25.56%;
+  bottom: 8.57%;
+  left: 22.56%;
+  display: inline-block;
+}
+.group-div {
+  position: absolute;
+  top: 35px;
+  left: 1310px;
+  width: 90px;
+  height: 35px;
+  text-align: center;
+  color: #fff;
+}
+.c21dc1-c604-4177-a426-d89dd448-icon,
+.f632c94-ccb6-46fb-86ae-92e3266-icon {
+  position: absolute;
+  height: 66.67%;
+  width: 82.39%;
+  top: 0;
+  right: 0.19%;
+  bottom: 33.33%;
+  left: 17.42%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.c21dc1-c604-4177-a426-d89dd448-icon {
+  height: 100%;
+  width: 13.32%;
+  right: 86.48%;
+  bottom: 0;
+  left: 0.2%;
+}
+.creating-better-future {
+  position: absolute;
+  height: 18.6%20;
+  width: 100%;
+  top: 74.42%;
+  right: -0.43%;
+  bottom: 6.98%;
+  left: 17.6%;
+  letter-spacing: 0.62em;
+  line-height: 101.9%;
+  display: inline-block;
+}
+.default-monochrome-black-1-div {
+  position: absolute;
+  top: 27px;
+  left: 22px;
+  width: 233px;
+  height: 43px;
+  overflow: hidden;
+  font-size: 8px;
+}
+.health-issues-b,
+.our-offerings-b,
+.who-are-we {
+  position: absolute;
+  top: 994px;
+  left: 131px;
+  font-size: 30px;
+  line-height: 30px;
+  display: inline-block;
+  width: 213px;
+  height: 40px;
+}
+.health-issues-b,
+.who-are-we {
+  top: 1320px;
+}
+.who-are-we {
+  top: 2152px;
+  left: 140px;
+  font-size: 35px;
+  width: 263px;
+}
+.group-icon,
+.rectangle-div {
+  position: absolute;
+  top: 1098px;
+  left: 131px;
+  width: 118px;
+  height: 118px;
+}
+.rectangle-div {
+  top: 0;
+  left: 0;
+  border-radius: 13px;
+  background-color: #ff4841;
+}
+.microscope-svgrepo-com-1-icon {
+  position: absolute;
+  top: 18.88px;
+  left: 18.88px;
+  border-radius: 13px;
+  width: 80.24px;
+  height: 80.24px;
+  overflow: hidden;
+}
+.group-div1 {
+  position: absolute;
+  top: 1098px;
+  left: 515px;
+  width: 118px;
+  height: 118px;
+}
+.health-issues-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 165px;
+  height: 26px;
+}
+.psychological-aid-div,
+.test-centers-div {
+  position: absolute;
+  top: 2px;
+  left: 204px;
+  display: inline-block;
+  width: 222px;
+  height: 26px;
+}
+.psychological-aid-div {
+  top: 3px;
+  left: 379px;
+  width: 196px;
+}
+.about-us-div,
+.donate-div {
+  position: absolute;
+  top: 3px;
+  left: 615px;
+  display: inline-block;
+}
+.about-us-div {
+  top: 5px;
+  left: 752px;
+}
+.line-div {
+  position: absolute;
+  top: 29.5px;
+  left: -0.5px;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  width: 150px;
+  height: 1px;
+}
+.group-div2 {
+  position: absolute;
+  top: 35px;
+  left: 360px;
+  width: 852px;
+  height: 32px;
+}
+.information-portal-div,
+.psychological-support-div,
+.test-centers-div1 {
+  position: absolute;
+  top: 1105px;
+  left: 264px;
+  font-weight: 500;
+  display: inline-block;
+  width: 182px;
+  height: 29px;
+}
+.information-portal-div,
+.psychological-support-div {
+  top: 1102px;
+  left: 650px;
+  width: 210px;
+}
+.psychological-support-div {
+  top: 1101px;
+  left: 1114px;
+  width: 251px;
+}
+.a-map-where-you-can-look-for-c,
+.here-you-can-find-essential-in,
+.search-for-most-suitable-cente {
+  position: absolute;
+  top: 1143px;
+  left: 264px;
+  font-size: 20px;
+  display: inline-block;
+  width: 215px;
+  height: 68px;
+}
+.here-you-can-find-essential-in,
+.search-for-most-suitable-cente {
+  top: 1137px;
+  left: 650px;
+  width: 272px;
+}
+.search-for-most-suitable-cente {
+  left: 1114px;
+}
+.group-icon1,
+.rectangle-div1 {
+  position: absolute;
+  top: 1098px;
+  left: 979px;
+  width: 118px;
+  height: 118px;
+}
+.rectangle-div1 {
+  top: 0;
+  left: 0;
+  border-radius: 61px;
+  background-color: #fff;
+  width: 355px;
+  height: 550px;
+}
+.genetic-diseases-div {
+  position: absolute;
+  top: 283px;
+  left: 42px;
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  width: 271px;
+  height: 36px;
+}
+.dna-1811955-1-icon {
+  position: absolute;
+  top: 38px;
+  left: 40px;
+  border-radius: 35px;
+  width: 274px;
+  height: 225px;
+  object-fit: cover;
+}
+.the-cause-of-many-blood-disord {
+  position: absolute;
+  top: 339px;
+  left: 51px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: left;
+  display: inline-block;
+  width: 263px;
+  height: 137px;
+}
+.group-div3,
+.rectangle-icon1 {
+  position: absolute;
+  width: 355px;
+  height: 550px;
+}
+.group-div3 {
+  top: 1419px;
+  left: 140px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: 30px;
+  border-radius: 61px;
+}
+.rectangle-icon1 {
+  top: 0;
+  left: 0;
+  border-radius: 61px;
+}
+.c21dc1-c604-4177-a426-d89dd448-icon1 {
+  position: absolute;
+  height: 8.05%;
+  width: 9.58%;
+  top: 87.64%;
+  right: 11.55%;
+  bottom: 4.31%;
+  left: 78.87%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.group-div4 {
+  position: absolute;
+  top: 1419px;
+  left: 579.02px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 355px;
+  height: 550px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 61px;
+}
+.c21dc1-c604-4177-a426-d89dd448-icon2 {
+  position: absolute;
+  height: 8.05%;
+  width: 9.58%;
+  top: 87.64%;
+  right: 11.56%;
+  bottom: 4.31%;
+  left: 78.86%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.group-div5 {
+  position: absolute;
+  top: 1419px;
+  left: 1018.05px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 355px;
+  height: 550px;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 61px;
+}
+.group-icon2,
+.group-icon3,
+.image-1-icon {
+  position: absolute;
+  top: 1649px;
+  left: 38px;
+  width: 53px;
+  height: 53px;
+}
+.group-icon3,
+.image-1-icon {
+  left: 1424px;
+}
+.image-1-icon {
+  top: 2172px;
+  left: 852px;
+  border-radius: 62px;
+  width: 709px;
+  height: 491px;
+  object-fit: cover;
+}
+.read-more-div,
+.we-are-a-non-profitable-organi {
+  position: absolute;
+  left: 141px;
+  display: inline-block;
+}
+.we-are-a-non-profitable-organi {
+  border: 0;
+  background-color: transparent;
+  top: 2258px;
+  font-size: 32px;
+  font-family: Montserrat;
+  color: #000;
+  text-align: left;
+  width: 524px;
+}
+.read-more-div {
+  top: 2616px;
+  font-size: 28px;
+  color: #d80027;
+  width: 162px;
+  height: 39px;
+}
+.left-arrow-svgrepo-com-1-1 {
+  position: absolute;
+  top: 2614px;
+  left: 314px;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+}
+.rectangle-icon2 {
+  position: absolute;
+  top: 2768px;
+  left: 0;
+  width: 1512px;
+  height: 314px;
+}
+.default-monochrome-white-1-icon {
+  position: absolute;
+  top: 2882px;
+  left: 180px;
+  width: 488px;
+  height: 90px;
+  overflow: hidden;
+}
+.line-div1 {
+  position: absolute;
+  top: 2804.25px;
+  left: 754.25px;
+  border-right: 3.5px solid #fff;
+  box-sizing: border-box;
+  width: 3.5px;
+  height: 241.5px;
+}
+.facebook-svgrepo-com-1-icon,
+.instagram-svgrepo-com-1-icon {
+  position: absolute;
+  top: 2821px;
+  left: 844px;
+  width: 31px;
+  height: 31px;
+  overflow: hidden;
+}
+.facebook-svgrepo-com-1-icon {
+  top: 2865px;
+  width: 32px;
+  height: 34px;
+}
+.email-svgrepo-com-1-icon,
+.twitter-svgrepo-com-1-icon,
+.youtube-svgrepo-com-2-1 {
+  position: absolute;
+  top: 2957px;
+  left: 845px;
+  width: 31px;
+  height: 31px;
+  overflow: hidden;
+}
+.email-svgrepo-com-1-icon,
+.twitter-svgrepo-com-1-icon {
+  top: 2913px;
+  height: 30px;
+}
+.email-svgrepo-com-1-icon {
+  top: 3001px;
+  height: 31px;
+}
+.rectangle-icon3 {
+  position: absolute;
+  top: 2821px;
+  left: 883px;
+  width: 177px;
+  height: 21px;
+}
+.redhealthofficial-div,
+.redhealthofficialgmailcom-div {
+  position: absolute;
+  top: 2821px;
+  left: 897px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 182px;
+  height: 21px;
+}
+.redhealthofficialgmailcom-div {
+  top: 3001px;
+  left: 898px;
+  width: 319px;
+}
+.red-health-div,
+.redhealth-div,
+.redhealthofficial-div1 {
+  position: absolute;
+  top: 2913px;
+  left: 898px;
+  line-height: 30px;
+  color: #fff;
+  display: inline-block;
+  width: 159px;
+  height: 20px;
+}
+.red-health-div,
+.redhealthofficial-div1 {
+  top: 2865px;
+  left: 897px;
+  width: 220px;
+}
+.red-health-div {
+  top: 2957px;
+  left: 899px;
+  width: 159px;
+  height: 21px;
+}
+.c21dc1-c604-4177-a426-d89dd448-icon3 {
+  position: absolute;
+  height: 1.44%;
+  width: 2.25%;
+  top: 61.68%;
+  right: 69.97%;
+  bottom: 36.88%;
+  left: 27.78%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.main-page {
+  position: relative;
+  background-color: #ede9e9;
+  width: 100%;
+  height: 3082px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 22px;
+  color: #000;
+  font-family: Montserrat;
+}
