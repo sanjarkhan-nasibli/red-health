@@ -1,3 +1,12 @@
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
 body {
     font-family: Montserrat;
     background-color: #EDE9E9;
@@ -336,7 +345,7 @@ body {
 }
 
 .group-div2.animate {
-    animation: 1s ease 0s 1 normal forwards fade-in;
+    animation: 3s ease 0.3s 1 normal forwards fade-in;
 }
 
 .group-div2 {
@@ -417,7 +426,7 @@ body {
 }
 
 .group-div3.animate {
-    animation: 1s ease 0.3s 1 normal forwards fade-in;
+    animation: 3s ease 0.6s 1 normal forwards fade-in;
 }
 
 .group-div3 {
@@ -445,7 +454,7 @@ body {
 }
 
 .group-div4.animate {
-    animation: 1s ease 0.6s 1 normal forwards fade-in;
+    animation: 3s ease 0.9s 1 normal forwards fade-in;
 }
 
 .group-div4 {
@@ -511,12 +520,15 @@ body {
 }
 
 .image-1-icon {
+    position: absolute;
     cursor: default;
     top: 2172px;
     left: 852px;
-    border-radius: 62px;
-    width: 709px;
+    border-top-left-radius: 62px;
+    border-bottom-left-radius: 62px;
+    width: 590px;
     height: 491px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
     object-fit: cover;
 }
 
@@ -543,14 +555,15 @@ body {
     position: absolute;
     top: 2768px;
     left: 0;
-    width: 1512px;
+    width: 1442px;
     height: 314px;
+    object-fit: cover;
 }
 
 .default-monochrome-white-1-icon {
     position: absolute;
     top: 2882px;
-    left: 180px;
+    left: 120px;
     width: 488px;
     height: 90px;
     overflow: hidden;
@@ -558,12 +571,12 @@ body {
 
 .line-div1 {
     position: absolute;
-    top: 2804.25px;
-    left: 754.25px;
+    top: 2826.25px;
+    left: 714.25px;
     border-right: 3.5px solid #fff;
     box-sizing: border-box;
     width: 3.5px;
-    height: 241.5px;
+    height: 201.5px;
 }
 
 .facebook-svgrepo-com-1-icon, .instagram-svgrepo-com-1-icon {
@@ -671,3 +684,16 @@ body {
     color: #fff;
     display: inline-block;
 }
+
+.red-health-not-for-profit-org {
+    position: absolute;
+    top: 3054px;
+    left: 546px;
+    font-size: 12px;
+    font-family: Inter;
+    color: #fff;
+    display: inline-block;
+    width: 379px;
+    height: 27px;
+  }
+  
