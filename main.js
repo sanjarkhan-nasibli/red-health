@@ -14,5 +14,3 @@ const scrollAnimElements = document.querySelectorAll('[data-animate-on-scroll]')
       for (let i = 0; i < scrollAnimElements.length; i++) {
         observer.observe(scrollAnimElements[i]);
       }
-      
-  

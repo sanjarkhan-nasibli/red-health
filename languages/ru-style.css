@@ -72,10 +72,10 @@ body {
     top: 1px;
     left: 0;
     display: inline-block;
-    width: 165px;
+    width: 200px;
     height: 26px;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     color: #000;
 }
 
@@ -88,7 +88,7 @@ body {
     width: 222px;
     height: 26px;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     color: #000;
 }
 
@@ -96,12 +96,12 @@ body {
     position: absolute;
     text-decoration: none;
     top: 3px;
-    left: 379px;
+    left: 370px;
     display: inline-block;
-    width: 196px;
+    width: 200px;
     height: 26px;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     color: #000;
 }
 
@@ -109,12 +109,12 @@ body {
     position: absolute;
     text-decoration: none;
     top: 3px;
-    left: 615px;
+    left: 590px;
     display: inline-block;
     width: 165px;
     height: 26px;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     color: #000;
 }
 
@@ -127,7 +127,7 @@ body {
     width: 165px;
     height: 26px;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     color: #000;
 }
 
@@ -163,7 +163,7 @@ body {
     position: absolute;
     top: 331px;
     left: 131px;
-    font-size: 40px;
+    font-size: 33px;
     display: inline-block;
     width: 478px;
     height: 140px;
@@ -172,8 +172,8 @@ body {
 .here-you-can-find-test-centers {
     cursor: default;
     position: absolute;
-    top: 495px;
-    font-size: 20px;
+    top: 485px;
+    font-size: 17px;
     line-height: 30px;
     width: 510px;
     height: 65px;
@@ -207,6 +207,7 @@ body {
     font-weight: 600;
     font-family: Montserrat;
     color: #fff;
+    left: 17px;
     text-align: left;
     display: flex;
     align-items: center;
@@ -260,7 +261,7 @@ body {
     position: absolute;
     top: 1143px;
     left: 264px;
-    font-size: 20px;
+    font-size: 15px;
     display: inline-block;
     width: 215px;
     height: 68px;
@@ -272,10 +273,14 @@ body {
     left: 650px;
     width: 210px;
 }
+.information-portal-div {
+    font-size: 17px;
+    width: 220px;
+}
 
 .here-you-can-find-essential-in, .search-for-most-suitable-cente {
     cursor: default;
-    top: 1137px;
+    top: 1145px;
     left: 650px;
     width: 272px;
 }
@@ -289,6 +294,7 @@ body {
 
 .search-for-most-suitable-cente {
     left: 1114px;
+    top: 1160px;
 }
 
 .group-icon1, .rectangle-div1 {
@@ -403,12 +409,38 @@ body {
     height: 36px;
 }
 
-.the-cause-of-many-blood-disord {
+.the-cause-of-many-blood-disord1 {
     cursor: default;
     position: absolute;
-    top: 339px;
+    top: 355px;
     left: 51px;
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    display: inline-block;
+    width: 263px;
+    height: 137px;
+}
+
+.the-cause-of-many-blood-disord2 {
+    cursor: default;
+    position: absolute;
+    top: 330px;
+    left: 51px;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: left;
+    display: inline-block;
+    width: 263px;
+    height: 137px;
+}
+
+.the-cause-of-many-blood-disord3 {
+    cursor: default;
+    position: absolute;
+    top: 355px;
+    left: 51px;
+    font-size: 16px;
     line-height: 30px;
     text-align: left;
     display: inline-block;
@@ -509,8 +541,8 @@ body {
 
 .we-are-a-non-profitable-organi {
     cursor: default;
-    top: 2261px;
-    font-size: 32px;
+    top: 2251px;
+    font-size: 30px;
     width: 589px;
 }
 
@@ -535,10 +567,10 @@ body {
 
 .read-more-div {
     cursor: pointer;
-    top: 2616px;
-    font-size: 28px;
+    top: 2620px;
+    font-size: 22px;
     color: #d80027;
-    width: 162px;
+    width: 200px;
     height: 39px;
 }
 
@@ -546,7 +578,7 @@ body {
     cursor: pointer;
     position: absolute;
     top: 2614px;
-    left: 314px;
+    left: 334px;
     width: 44px;
     height: 44px;
     overflow: hidden;
