@@ -1,0 +1,100 @@
+.footer {
+  background-color: red;
+  color: $white-color;
+  padding: 1rem 0;
+
+  @include respond(phone) {
+    border: 0px;
+  }
+
+  &__text {
+    color: $white-color;
+    font-size: 1.5rem;
+    padding-top: 1.3rem;
+
+    @include respond(phone) {
+      font-size: 1.2rem;
+    }
+
+    a {
+      color: white;
+      font-size: 1.5rem;
+      transition: all 0.4s;
+      display: inline-block;
+
+      @include respond(phone) {
+        font-size: 1.2rem;
+      }
+
+      &:hover,
+      &:active {
+        color: black;
+      }
+    }
+  }
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: -25rem;
+  margin-top: -10.5rem;
+
+  @include respond(phone) {
+    display: none;
+  }
+  @include respond(tab-land) {
+    display: none;
+  }
+  @include respond(tab-port) {
+    display: none;
+  }
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $white-color;
+    font-size: 3rem;
+    width: 5rem;
+    height: 1.5rem;
+    margin: $default-font-size $default-font-size;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+.back-to-top i {
+  color: white;
+  margin: 1rem 0 $default-font-size;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+@font-face {
+  font-family: 'entypo';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-90/entypo.woff') format('woff');
+}
+
+.entypo-heart:before {
+  content:"\2665";
+}
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  color: white;
+}

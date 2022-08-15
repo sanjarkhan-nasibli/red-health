@@ -1,0 +1,219 @@
+
+#mainNav {
+  position: fixed;
+  width: 100%;
+  padding-top: 2rem;
+  font-family: Montserrat, sans-serif; 
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.10);
+  z-index: 1;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: x-large;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-toggler {
+  border-style: none;
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.navbar-nav ms-auto {
+  color: #000000;
+}
+
+a.nav-link {
+  font-size: 2.3rem;
+  font-weight: 500;
+
+  @include respond(tab-land) {
+    font-size: 2rem;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding-left: 30px;
+  color: #000000;
+
+}
+
+#hero {
+  cursor: default;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  background: #EDE9E9; 
+  font-weight: 400;
+  color: #000000;
+  padding: 0rem 13rem;
+  padding-top: 15rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+
+  @include respond(phone) {
+    padding: 0rem $default-font-size;
+  }
+
+.set-gradient {
+    text-align: center;
+    background: linear-gradient(-86.13deg, #ef0f0f, #000000);
+	  background-size: 400% 400%;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: gradient 10s ease infinite;
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+}
+
+.hero-title {
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  text-align: left;
+  margin-top: 50px;
+
+   @include respond(tab-land) {
+    font-size: 3.5rem;
+  }
+  @include respond(tab-port) {
+    font-size: 3.0rem;
+    text-align: center;
+  }
+  @include respond(phone) {
+    font-size: 3rem;
+  }
+  @include respond(phone-xs) {
+     font-size: 2.0rem;
+  }
+}
+
+.here-you-can-find-test-centers {
+  text-align: left;
+  font-weight: 500;
+  font-size: 2rem;
+  display: flex;
+  margin-bottom: 2.5rem;
+
+  @include respond(tab-land) {
+    font-size: 1.7rem;
+  }
+   @include respond(tab-port) {
+    font-size: 1.7rem;
+    justify-content: center;
+    text-align: center;
+  }
+  @include respond(phone) {
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+  }
+  @include respond(phone-xs) {
+    font-size: 1.3rem;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.hero-cta {
+  display: flex;
+
+  @include respond(tab-port) {
+    justify-content: center;
+  }
+
+  & a {
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    @include respond(tab-port) {
+      justify-content: center;
+      font-size: 2rem;
+    }
+    @include respond(phone) {
+      font-size: 1.5rem;
+    }
+    }
+  }
+}
+
+.hero-cta1 {
+  cursor: pointer;
+  display: flex;
+
+  @include respond(tab-port) {
+    justify-content: center;
+  }
+
+  & a {
+    font-size: 2rem;
+
+    @include respond(tab-port) {
+      justify-content: center;
+      font-size: 2rem;
+    }
+    @include respond(phone) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.blood-drop-svgrepo-com-1-icon {
+  position: relative;
+  margin-top: -52.5rem;
+  padding-right: 15rem;
+  width: 512px;
+  height: 512px;
+  float: right;
+  clear: right;
+
+  @include respond(tab-land) {
+    max-width: 400px;
+  }
+  @include respond(tab-port) {
+    display: none;
+  }
+  @include respond(phone) {
+    display: none;
+  }
+  @include respond(phone-xs) {
+    display: none;
+  }
+}

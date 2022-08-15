@@ -1,0 +1,276 @@
+#about-healt-issues {
+  background-color: $white-color;
+  color: $dark-blue-text;
+  margin-top: -10rem;
+  padding-top: 15rem;
+
+  @include respond(tab-land) {
+    margin-top: 0;
+    padding-top: 5rem;
+  }
+}
+
+.project-wrapper {
+  margin-bottom: 12.5rem;
+
+  @include respond(phone) {
+    margin-bottom: 0rem;
+  }
+
+.fab {
+  padding-bottom: 12.5px;
+}
+
+.row {
+  margin-bottom: 8rem;
+
+  @include respond(phone) {
+      margin-bottom: 4rem;
+    }
+  }
+}
+
+.image-drop {
+  margin-left: 85%;
+}
+
+.section-title-health {
+  cursor: default;
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: $big-font-size;
+  font-weight: bold;
+  text-align: left;
+  padding: 0rem 8rem;
+  margin-top: 1rem;
+
+  @include respond(tab-port) {
+    font-size: 3.0rem;
+    text-align: center;
+  }
+  @include respond(phone) {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+}
+
+.card-img-top {
+  border-radius: 61px;
+  padding: 3rem;
+  margin-bottom: -1rem;
+
+  @include respond(phone) {
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 1.5rem;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 25%;
+  }
+  @include respond(tab-land) {
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  @include respond(tab-port) {
+    border-radius: 0;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.card {
+  padding: 3rem;
+  border-radius: 61px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+
+  @include respond(phone) {
+    max-width: 100%;
+    max-height: 50%;
+  }
+}
+
+.card-title {
+  cursor: default;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+
+  @include respond(phone) {
+    font-size: 25px;
+  }
+  @include respond(tab-land) {
+    font-size: 25px;
+  }
+  @include respond(tab-port) {
+    font-size: 20px;
+  }
+}
+
+.card-text {
+  cursor: default;
+}
+
+.section-title-who {
+  cursor: default;
+  margin: 0px;
+  margin-bottom: 4.5rem;
+  font-size: $big-font-size;
+  font-weight: bold;
+  text-align: left;
+  padding: 0rem 8rem;
+  margin-top: -15rem;
+
+  @include respond(tab-port) {
+    font-size: 3.0rem;
+    text-align: center;
+  }
+  @include respond(phone) {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: -5rem;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;   
+  align-items: flex-start;
+}
+
+#h1-title {
+  cursor: default;
+  padding-left: 8rem;
+  max-width: 75%;
+  font-size: 32px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+
+  @include respond(tab-port) {
+    padding-left: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: -1.5rem;
+  }
+  @include respond(phone) {
+    padding-left: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.title {
+  background: linear-gradient(-86.13deg, #ef0f0f, #000000);
+	background-size: 400% 400%;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	animation: gradient 15s ease infinite;
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+button {
+  margin: 30px;
+}
+
+.custom-btn {
+  width: 150px;
+  height: 55px;
+  color: #fff;
+  padding: 10px 25px;
+  font-weight: 700;
+  font-size: 17px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+.read-more {
+  margin-top: 0.8rem;
+  font-weight: 700;
+  font-size: 17px;
+
+  @include respond(phone) {
+    font-size: 15px;
+  }
+}
+
+.button-more-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 5rem;
+
+  @include respond(tab-port) {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @include respond(phone) {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.btn-15 {
+  border: none;
+  background: linear-gradient(-86.13deg, #ef0f0f, #ff5a44, rgb(255, 166, 0));
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  box-shadow: 1px 2.5px 3px rgba(0, 0, 0, 0.5);
+    color: white;
+
+    @include respond(phone) {
+      width: 250px;
+    }
+    @include respond(phone) {
+      width: 30%;
+      font-size: 15px;
+    }
+}

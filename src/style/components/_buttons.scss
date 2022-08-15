@@ -1,0 +1,48 @@
+.cta-btn {
+    width: 350px;
+    display: inline-block;
+    position: relative;
+    padding: 2rem $default-font-size;
+    font-weight: 500;
+    line-height: 1;
+    z-index: 1;
+    border-radius: 25px;
+    background: linear-gradient(-86.13deg, #ef0f0f, #ff5a44, rgb(255, 166, 0));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+    box-shadow: 1px 2.5px 3px rgba(0, 0, 0, 0.5);
+    color: white;
+
+    @include respond(phone) {
+      width: 250px;
+    }
+}
+
+.cta-btn1 {
+  width: 80px;
+  height: 40px;
+  margin-left: 30px;
+  display: inline-block;
+  position: relative;
+  padding: 1rem $default-font-size;
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  border-radius: 30px;
+  background: red;
+  color: white;
+  font-weight: 500;
+}
