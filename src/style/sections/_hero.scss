@@ -55,6 +55,9 @@ a.nav-link {
   padding-left: 30px;
   color: #000000;
 
+  @include respond(phone) {
+    padding-left: 0;
+  }
 }
 
 #hero {

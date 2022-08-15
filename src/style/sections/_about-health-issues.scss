@@ -220,7 +220,7 @@ button {
   font-size: 17px;
 
   @include respond(phone) {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -267,10 +267,7 @@ button {
     color: white;
 
     @include respond(phone) {
-      width: 250px;
-    }
-    @include respond(phone) {
-      width: 30%;
+      width: 35%;
       font-size: 15px;
     }
 }
