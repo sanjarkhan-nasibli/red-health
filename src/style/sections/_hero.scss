@@ -8,6 +8,11 @@
   backdrop-filter: blur(8px);
   box-shadow: 0 5px 10px rgba(0,0,0,0.10);
   z-index: 1;
+
+  @include respond(phone) {
+    padding-top: 0;
+    height: 10%;
+  }
 }
 
 .fa, .fab, .fad, .fal, .far, .fas {
@@ -23,7 +28,7 @@
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: x-large;
+  font-size: large;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,7 +36,7 @@
 
 .navbar-toggler {
   border-style: none;
-  padding: 0.25rem 0.75rem;
+  padding: 0rem 0rem;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
@@ -57,6 +62,14 @@ a.nav-link {
 
   @include respond(phone) {
     padding-left: 0;
+  }
+}
+
+.navbar-logo {
+  @include respond(phone) {
+    width: 155px;
+    height: 40px;
+    margin-left: 1rem;
   }
 }
 
