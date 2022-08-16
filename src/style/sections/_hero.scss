@@ -10,8 +10,13 @@
   z-index: 1;
 
   @include respond(phone) {
-    padding-top: 0;
-    height: 10%;
+    padding-top: 1rem;
+  }
+}
+
+ .container {
+  @include respond(phone) {
+    margin-bottom: -0.5rem;
   }
 }
 
@@ -23,6 +28,13 @@
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .fa {
@@ -39,7 +51,7 @@
   padding: 0rem 0rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: transarent;
   transition: box-shadow 0.15s ease-in-out;
 }
 
